@@ -48,10 +48,16 @@ const productAnswers = (productName, productUrl) => {
             "💰 Efectivo: 20% OFF",
             "💸 Transf/depósito:10% OFF",
         ],
-        "⚡📦 Hacemos envíos a todo el país! Podés cotizar el mismo directamente desde nuestra página ingresando tu código postal.",
-        "📍Nos encontrás en 3 de Febrero 2962. Caseros, Buenos Aires.",
-        ["Ante cualquier duda, estamos a tu disposición. 😊👑"],
-    ];
+        [
+            "⚡📦 Hacemos envíos a todo el país! Podés cotizar el mismo directamente desde nuestra página ingresando tu código postal."
+        ],
+        [
+            "📍Nos encontrás en 3 de Febrero 2962. Caseros, Buenos Aires."
+        ],
+        [
+            "Ante cualquier duda, estamos a tu disposición. 😊👑"
+        ]
+    ]
 };
 
 const configureFlowAnswers = (flow, productName, productUrl) => {
