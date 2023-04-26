@@ -67,9 +67,11 @@ const createProductFlow = ({ keyword, name, url }) => {
         .addAnswer(
             [
                 "Ante cualquier duda, estamos a tu disposición. 😊👑"
-            ]
+            ],
+            null,
+            null,
+            [flowThanks]
         )
-        .addAnswer(null, null, [flowThanks]);
 };
 
 const main = async () => {
