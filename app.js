@@ -1,4 +1,4 @@
-const { createBot, createProvider, createFlow, addKeyword } = require('@bot-whatsapp/bot')
+const {createBot, createProvider, createFlow, addKeyword} = require('@bot-whatsapp/bot')
 
 const QRPortalWeb = require('@bot-whatsapp/portal')
 const BaileysProvider = require('@bot-whatsapp/provider/baileys')
@@ -67,14 +67,26 @@ const flowDiscord = addKeyword(['discord']).addAnswer(
     [flowSecundario]
 )
 
-const flowPrincipal = addKeyword(['hola', 'ole', 'alo'])
-    .addAnswer('🙌 Hola bienvenido a este *Chatbot*')
+const flowPrinciple = addKeyword('¿Me enviarían más detalles de la cuna funcional Viena?')
+    .addAnswer('Buen día, cómo estás? 😊')
     .addAnswer(
         [
-            'te comparto los siguientes links de interes sobre el proyecto',
-            '👉 *doc* para ver la documentación',
-            '👉 *gracias*  para ver la lista de videos',
-            '👉 *discord* unirte al discord',
+            'Te envío el link a nuestra tienda con más info y precio de la cuna funcional Viena.',
+            '👉🏼 https://www.faraonkids.com/search/?q=funcional+viena',
+            '👉🏼 Podés llevar el modelo que más te guste "en combo." Este incluye:',
+            '• Cuna • Colchón • Juego de sábanas • Almohadón de regalo 💖'
+        ])
+    .addAnswer(
+        [
+            '💳 Podés abonar en hasta en 3 cuotas sin interés con tarjetas de crédito bancarias.',
+            '💰 Efectivo: 20% OFF',
+            '💸 Transf/depósito:10% OFF'
+        ])
+    .addAnswer('⚡📦 Hacemos envíos a todo el país! Podés cotizar el mismo directamente desde nuestra página ingresando tu código postal.')
+    .addAnswer('📍Nos encontrás en 3 de Febrero 2962. Caseros, Buenos Aires.')
+    .addAnswer(
+        [
+            'Ante cualquier duda, estamos a tu disposición. 😊👑'
         ],
         null,
         null,
@@ -86,7 +98,7 @@ const main = async () => {
         dbUri: MONGO_DB_URI,
         dbName: MONGO_DB_NAME,
     })
-    const adapterFlow = createFlow([flowPrincipal])
+    const adapterFlow = createFlow([flowPrinciple])
     const adapterProvider = createProvider(BaileysProvider)
     createBot({
         flow: adapterFlow,
