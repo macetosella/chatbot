@@ -1,3 +1,5 @@
+const config = require("./config");
+
 const {
     createBot,
     createProvider,
@@ -8,10 +10,6 @@ const {
 const QRPortalWeb = require("@bot-whatsapp/portal");
 const BaileysProvider = require("@bot-whatsapp/provider/baileys");
 const MongoAdapter = require("@bot-whatsapp/database/mongo");
-
-const MONGO_DB_URI =
-    "mongodb+srv://root:root@cluster0.dj1bs.gcp.mongodb.net/?retryWrites=true&w=majority";
-const MONGO_DB_NAME = "DB_BOT";
 
 const flowThanks = addKeyword("gracias").addAnswer("❤️");
 
@@ -37,10 +35,10 @@ const greetingAction = async (ctx, { flowDynamic }) => {
     return flowDynamic(`${greeting} ${name}, cómo estás? 😊`);
 };
 
-const productAnswers = (productUrl) => {
+const productAnswers = (productName, productUrl) => {
     return [
         [
-            "Te envío el link a nuestra tienda con más info y precio del producto.",
+            `Te envío el link a nuestra tienda con más info y precio de la ${productName}.`,
             `👉🏼 ${productUrl}`,
             "👉🏼 Podés llevar el modelo que más te guste \"en combo.\" Este incluye:",
             "• Cuna • Colchón • Juego de sábanas • Almohadón de regalo 💖",
@@ -56,33 +54,23 @@ const productAnswers = (productUrl) => {
     ];
 };
 
-const createProductFlow = (keyword, productUrl) => {
+const configureFlowAnswers = (flow, productName, productUrl) => {
+    productAnswers(productName, productUrl).forEach((answer) => flow.addAnswer(answer));
+    flow.addAnswer(null, null, null, [flowThanks]);
+};
+
+const createProductFlow = ({ keyword, name, url }) => {
     const flow = addKeyword(keyword).addAction(greetingAction);
-    productAnswers(productUrl).forEach((answer) => flow.addAnswer(answer));
+    configureFlowAnswers(flow, name, url);
     return flow;
 };
 
-const flowViena = createProductFlow(
-    "¿Me enviarían más detalles de la cuna funcional Viena?",
-    "https://www.faraonkids.com/search/?q=funcional+viena"
-).addAnswer(null, null, null, [flowThanks]);
-
-const flowParis = createProductFlow(
-    "¿Me enviarían más detalles de la cuna colecho Paris?",
-    "https://www.faraonkids.com/search/?q=colecho+paris"
-).addAnswer(null, null, null, [flowThanks]);
-
-const flowMilan = createProductFlow(
-    "¿Me enviarían más detalles de la cuna colecho Milan?",
-    "https://www.faraonkids.com/search/?q=colecho+milan"
-).addAnswer(null, null, null, [flowThanks]);
-
 const main = async () => {
     const adapterDB = new MongoAdapter({
-        dbUri: MONGO_DB_URI,
-        dbName: MONGO_DB_NAME,
+        dbUri: config.database.uri,
+        dbName: config.database.name,
     });
-    const adapterFlow = createFlow([flowViena, flowParis, flowMilan]);
+    const adapterFlow = createFlow(config.products.map(createProductFlow));
     const adapterProvider = createProvider(BaileysProvider);
     createBot({
         flow: adapterFlow,
