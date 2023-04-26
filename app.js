@@ -68,7 +68,11 @@ const flowDiscord = addKeyword(['discord']).addAnswer(
 )
 
 const flowPrinciple = addKeyword('¿Me enviarían más detalles de la cuna funcional Viena?')
-    .addAnswer('Buen día, cómo estás? 😊')
+    .addAction(async (ctx,{flowDynamic}) => {
+        var name = ctx.pushName;
+
+        return flowDynamic(`Buen día ${name}, cómo estas? 😊`)
+    })
     .addAnswer(
         [
             'Te envío el link a nuestra tienda con más info y precio de la cuna funcional Viena.',
