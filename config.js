@@ -6,7 +6,12 @@ module.exports = {
             url: "https://www.faraonkids.com/search/?q=funcional+viena",
         },
         {
-            name: "cuna funcional Viena",
+            name: "cuna funcional Génova",
+            keyword: "¿Me enviarían más detalles de la cuna funcional Génova?",
+            url: "https://www.faraonkids.com/search/?q=funcional+genova",
+        },
+        {
+            name: "cuna colecho Tandil",
             keyword: "¿Me enviarían más detalles de la cuna colecho Tandil?",
             url: "https://www.faraonkids.com/search/?q=colecho+tandil",
         },
@@ -32,4 +37,3 @@ module.exports = {
         name: "DB_BOT",
     },
 };
-
