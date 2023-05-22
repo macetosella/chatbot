@@ -13,7 +13,7 @@ module.exports = {
         {
             name: "cuna colecho Tandil",
             keyword: "¿Me enviarían más detalles de la cuna colecho Tandil?",
-            url: "https://www.faraonkids.com/search/?q=colecho+tandil",
+            url: "https://rebrand.ly/CunaColechoTandil",
         },
         {
             name: "cuna funcional Viena",

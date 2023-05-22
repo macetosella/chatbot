@@ -1,105 +1,99 @@
 [handleMsg]:  {
   key: {
-    remoteJid: '5491138135085@s.whatsapp.net',
+    remoteJid: '5491127659439@s.whatsapp.net',
     fromMe: false,
-    id: '3ADC2955C1E32D621142',
+    id: '73F5F1ADBA36FD907F2DD1734E9C1588',
     participant: undefined
   },
-  messageTimestamp: 1683910040,
-  pushName: 'Mati 🤌🏽',
+  messageTimestamp: 1684156608,
+  pushName: 'Milagros Moauro',
   message: Message {
-    conversation: '¿Me enviarían más detalles de la cuna colecho Paris?',
+    conversation: 'Perfecto',
     messageContextInfo: MessageContextInfo {
       deviceListMetadata: [DeviceListMetadata],
       deviceListMetadataVersion: 2
     }
   },
-  body: '¿Me enviarían más detalles de la cuna colecho Paris?',
-  from: '5491138135085'
+  body: 'Perfecto',
+  from: '5491127659439'
 }
 [handleMsg]:  {
   key: {
-    remoteJid: '5491138135085@s.whatsapp.net',
+    remoteJid: '5491127659439@s.whatsapp.net',
     fromMe: false,
-    id: '3AB19150ED737EFA1805',
+    id: 'E2C95236F6B71FC697957D5974879625',
     participant: undefined
   },
-  messageTimestamp: 1683910044,
-  pushName: 'Mati 🤌🏽',
+  messageTimestamp: 1684156610,
+  pushName: 'Milagros Moauro',
   message: Message {
-    conversation: '¿Me enviarían más detalles de la cuna colecho Paris?',
+    conversation: 'Muchísimas gracias',
     messageContextInfo: MessageContextInfo {
       deviceListMetadata: [DeviceListMetadata],
       deviceListMetadataVersion: 2
     }
   },
-  body: '¿Me enviarían más detalles de la cuna colecho Paris?',
-  from: '5491138135085'
+  body: 'Muchísimas gracias',
+  from: '5491127659439'
 }
 [handleMsg]:  {
   key: {
-    remoteJid: '5491138135085@s.whatsapp.net',
+    remoteJid: '5491134720717@s.whatsapp.net',
     fromMe: false,
-    id: '3A5A8C0AF982BABFD1BC',
+    id: '921F47733872609D7DFBA2E00B3BD15A',
     participant: undefined
   },
-  messageTimestamp: 1683910094,
-  pushName: 'Mati 🤌🏽',
+  messageTimestamp: 1684156652,
+  pushName: 'Agos Araldi',
   message: Message {
-    conversation: '¿Me enviarían más detalles de la cuna colecho Tandil?',
+    documentMessage: DocumentMessage {
+      url: 'https://mmg.whatsapp.net/v/t62.7119-24/25415495_208861048658781_2421814508610132661_n.enc?ccb=11-4&oh=01_AdSSQ933CD4tS8CgWbgtakMMLZ3LRuTcFbNvUqwd1Qlj_A&oe=64899E5C&mms3=true',
+      mimetype: 'application/vnd.ms-excel',
+      title: 'Listas Mayoristas.xls',
+      fileSha256: [Uint8Array],
+      fileLength: [Long],
+      pageCount: 0,
+      mediaKey: [Uint8Array],
+      fileName: 'Listas Mayoristas.xls',
+      fileEncSha256: [Uint8Array],
+      directPath: '/v/t62.7119-24/25415495_208861048658781_2421814508610132661_n.enc?ccb=11-4&oh=01_AdSSQ933CD4tS8CgWbgtakMMLZ3LRuTcFbNvUqwd1Qlj_A&oe=64899E5C&_nc_hot=1684156652',
+      mediaKeyTimestamp: [Long],
+      contextInfo: [ContextInfo]
+    },
     messageContextInfo: MessageContextInfo {
       deviceListMetadata: [DeviceListMetadata],
       deviceListMetadataVersion: 2
     }
   },
-  body: '¿Me enviarían más detalles de la cuna colecho Tandil?',
-  from: '5491138135085'
+  body: '_event_document__0a10d5ac-870c-4188-90ce-4f05945af624',
+  from: '5491134720717'
 }
 [handleMsg]:  {
   key: {
-    remoteJid: '5491138135085@s.whatsapp.net',
+    remoteJid: '5493487400686@s.whatsapp.net',
     fromMe: false,
-    id: '3A53078A5CA0EBFA84C6',
+    id: 'F606F1D8C66C94549368BE92BC98E83C',
     participant: undefined
   },
-  messageTimestamp: 1683910101,
-  pushName: 'Mati 🤌🏽',
-  message: Message {
-    conversation: '¿Me enviarían más detalles de la cuna colecho Tandil?',
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
-    }
-  },
-  body: '¿Me enviarían más detalles de la cuna colecho Tandil?',
-  from: '5491138135085'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '5493846497205@s.whatsapp.net',
-    fromMe: false,
-    id: 'A4FB1D44833E6348EFC6C2FBF94C78EB',
-    participant: undefined
-  },
-  messageTimestamp: 1683914458,
-  pushName: 'Fer',
+  messageTimestamp: 1684157782,
+  pushName: 'Aixa✨',
   messageStubType: 2,
   messageStubParameters: [ 'Message absent from node' ],
   body: undefined,
-  from: '5493846497205'
+  from: '5493487400686'
 }
 [handleMsg]:  {
   key: {
-    remoteJid: '5493846497205@s.whatsapp.net',
+    remoteJid: '5493487400686@s.whatsapp.net',
     fromMe: false,
-    id: 'A4FB1D44833E6348EFC6C2FBF94C78EB',
+    id: 'F606F1D8C66C94549368BE92BC98E83C',
     participant: undefined
   },
-  messageTimestamp: 1683914459,
-  pushName: 'Fer',
+  messageTimestamp: 1684157783,
+  pushName: 'Aixa✨',
   message: Message {
     extendedTextMessage: ExtendedTextMessage {
-      text: 'Hola precio',
+      text: 'He visto esto en Instagram...',
       previewType: 0,
       contextInfo: [ContextInfo],
       inviteLinkGroupTypeV2: 0
@@ -109,634 +103,69 @@
       deviceListMetadataVersion: 2
     }
   },
-  body: 'Hola precio',
-  from: '5493846497205'
+  body: 'He visto esto en Instagram...',
+  from: '5493487400686'
 }
 [handleMsg]:  {
   key: {
-    remoteJid: '5491156972882@s.whatsapp.net',
+    remoteJid: '5493487400686@s.whatsapp.net',
     fromMe: false,
-    id: 'D754B21589469147134503B6A93F8A41',
+    id: '45E54FD7F029422B5778A28192A38083',
     participant: undefined
   },
-  messageTimestamp: 1683918323,
-  pushName: 'Barby',
+  messageTimestamp: 1684157916,
+  pushName: 'Aixa✨',
   message: Message {
-    extendedTextMessage: ExtendedTextMessage {
-      text: 'Vi esto en Instagram...',
-      previewType: 0,
-      contextInfo: [ContextInfo],
-      inviteLinkGroupTypeV2: 0
-    },
+    conversation: 'Quisiera saber precio y formas de pago',
     messageContextInfo: MessageContextInfo {
       deviceListMetadata: [DeviceListMetadata],
       deviceListMetadataVersion: 2
     }
   },
-  body: 'Vi esto en Instagram...',
-  from: '5491156972882'
+  body: 'Quisiera saber precio y formas de pago',
+  from: '5493487400686'
 }
 [handleMsg]:  {
   key: {
-    remoteJid: '5492284725001@s.whatsapp.net',
+    remoteJid: '5492613021438@s.whatsapp.net',
     fromMe: false,
-    id: 'B544DF831652EB896FD364C5B232190A',
+    id: '93846DC1860F2EFA0827A5FCE52AA618',
     participant: undefined
   },
-  messageTimestamp: 1683918725,
-  pushName: 'Carolina',
-  message: Message {
-    conversation: 'La cuna 1 me gusto',
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
-    }
-  },
-  body: 'La cuna 1 me gusto',
-  from: '5492284725001'
+  messageTimestamp: 1684159955,
+  pushName: 'Solci',
+  messageStubType: 2,
+  messageStubParameters: [ 'Message absent from node' ],
+  body: undefined,
+  from: '5492613021438'
 }
 [handleMsg]:  {
   key: {
-    remoteJid: '5491121828796@s.whatsapp.net',
+    remoteJid: '5492613021438@s.whatsapp.net',
     fromMe: false,
-    id: '3A36AC4BF48C73559A44',
+    id: '93846DC1860F2EFA0827A5FCE52AA618',
     participant: undefined
   },
-  messageTimestamp: 1683918768,
-  pushName: 'Josefina',
-  message: Message {
-    extendedTextMessage: ExtendedTextMessage { text: 'Hola', contextInfo: [ContextInfo] },
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
-    }
-  },
-  body: 'Hola',
-  from: '5491121828796'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '5491121828796@s.whatsapp.net',
-    fromMe: false,
-    id: '3AC65A5E40CA11243369',
-    participant: undefined
-  },
-  messageTimestamp: 1683918770,
-  pushName: 'Josefina',
-  message: Message {
-    conversation: 'Buenas tardes',
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
-    }
-  },
-  body: 'Buenas tardes',
-  from: '5491121828796'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '5491121828796@s.whatsapp.net',
-    fromMe: false,
-    id: '3A1E02B7DFADEA102157',
-    participant: undefined
-  },
-  messageTimestamp: 1683918775,
-  pushName: 'Josefina',
-  message: Message {
-    conversation: 'Me pueden enviar',
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
-    }
-  },
-  body: 'Me pueden enviar',
-  from: '5491121828796'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '5491121828796@s.whatsapp.net',
-    fromMe: false,
-    id: '3A083208EE385C139536',
-    participant: undefined
-  },
-  messageTimestamp: 1683918787,
-  pushName: 'Josefina',
-  message: Message {
-    conversation: 'Una foto de como instalar la cajonera arriba de la cuna funcional',
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
-    }
-  },
-  body: 'Una foto de como instalar la cajonera arriba de la cuna funcional',
-  from: '5491121828796'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '5492996560232@s.whatsapp.net',
-    fromMe: false,
-    id: '1FE985466B3B094A44BC4CB7176008AD',
-    participant: undefined
-  },
-  messageTimestamp: 1683918904,
-  pushName: 'Adry💚',
-  message: Message {
-    extendedTextMessage: ExtendedTextMessage {
-      text: 'He visto esto en Facebook...120 x 60 necesito chichonera, sabanas y acolchado',
-      previewType: 0,
-      contextInfo: [ContextInfo],
-      inviteLinkGroupTypeV2: 0
-    },
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
-    }
-  },
-  body: 'He visto esto en Facebook...120 x 60 necesito chichonera, sabanas y acolchado',
-  from: '5492996560232'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '5491156972882@s.whatsapp.net',
-    fromMe: false,
-    id: '7392407523B16E50143A1ED667533AAA',
-    participant: undefined
-  },
-  messageTimestamp: 1683919467,
-  pushName: 'Barby',
-  message: Message {
-    conversation: 'gracias!',
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
-    }
-  },
-  body: 'gracias!',
-  from: '5491156972882'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '5491131836827@s.whatsapp.net',
-    fromMe: false,
-    id: '3AA42AF0CBAA6CDF68BB',
-    participant: undefined
-  },
-  messageTimestamp: 1683919485,
-  pushName: 'Anabella',
-  message: Message {
-    extendedTextMessage: ExtendedTextMessage {
-      text: 'Vi esto en Instagram...',
-      contextInfo: [ContextInfo]
-    },
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
-    }
-  },
-  body: 'Vi esto en Instagram...',
-  from: '5491131836827'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '5491131836827@s.whatsapp.net',
-    fromMe: false,
-    id: '3AB8241F1C9283F48460',
-    participant: undefined
-  },
-  messageTimestamp: 1683919490,
-  pushName: 'Anabella',
-  message: Message {
-    conversation: 'De donde son?',
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
-    }
-  },
-  body: 'De donde son?',
-  from: '5491131836827'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '5491131836827@s.whatsapp.net',
-    fromMe: false,
-    id: '3A4B0805F0A04A327323',
-    participant: undefined
-  },
-  messageTimestamp: 1683919544,
-  pushName: 'Anabella',
-  message: Message {
-    conversation: 'Uh no tienen nada serca?',
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
-    }
-  },
-  body: 'Uh no tienen nada serca?',
-  from: '5491131836827'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '5491131836827@s.whatsapp.net',
-    fromMe: false,
-    id: '3A5DD4E858BA780B814E',
-    participant: undefined
-  },
-  messageTimestamp: 1683919548,
-  pushName: 'Anabella',
-  message: Message {
-    conversation: 'De Lanús',
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
-    }
-  },
-  body: 'De Lanús',
-  from: '5491131836827'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '5491131836827@s.whatsapp.net',
-    fromMe: false,
-    id: '3AE9080B3B303B26E1A0',
-    participant: undefined
-  },
-  messageTimestamp: 1683919644,
-  pushName: 'Anabella',
-  message: Message {
-    conversation: 'Me pasarías el precio de las 3 cunas colechos',
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
-    }
-  },
-  body: 'Me pasarías el precio de las 3 cunas colechos',
-  from: '5491131836827'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '5493496540711@s.whatsapp.net',
-    fromMe: false,
-    id: '2FFC3BA36F71F37A0EF7794929833101',
-    participant: undefined
-  },
-  messageTimestamp: 1683920104,
-  pushName: '𝕄𝕚𝕔𝕒 𝕂𝕖𝕣𝕟',
-  message: Message {
-    extendedTextMessage: ExtendedTextMessage {
-      text: 'Vi esto en Facebook... Me dicen los precios?',
-      previewType: 0,
-      contextInfo: [ContextInfo],
-      inviteLinkGroupTypeV2: 0
-    },
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
-    }
-  },
-  body: 'Vi esto en Facebook... Me dicen los precios?',
-  from: '5493496540711'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '5493496540711@s.whatsapp.net',
-    fromMe: false,
-    id: '7DB3610259313FBFF3E5ABE485368102',
-    participant: undefined
-  },
-  messageTimestamp: 1683920111,
-  pushName: '𝕄𝕚𝕔𝕒 𝕂𝕖𝕣𝕟',
-  message: Message {
-    conversation: 'Gracias 😊',
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
-    }
-  },
-  body: 'Gracias 😊',
-  from: '5493496540711'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '5493496540711@s.whatsapp.net',
-    fromMe: false,
-    id: '4E7AF4FD162C28E77A2B9D94D5D5AB8D',
-    participant: undefined
-  },
-  messageTimestamp: 1683920693,
-  pushName: '𝕄𝕚𝕔𝕒 𝕂𝕖𝕣𝕟',
-  message: Message {
-    conversation: 'Buenísimo',
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
-    }
-  },
-  body: 'Buenísimo',
-  from: '5493496540711'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '5493496540711@s.whatsapp.net',
-    fromMe: false,
-    id: '2B79B8DAEE2E3866A72B8810592E4B65',
-    participant: undefined
-  },
-  messageTimestamp: 1683920699,
-  pushName: '𝕄𝕚𝕔𝕒 𝕂𝕖𝕣𝕟',
-  message: Message {
-    conversation: 'Gracias',
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
-    }
-  },
-  body: 'Gracias',
-  from: '5493496540711'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '5493496540711@s.whatsapp.net',
-    fromMe: false,
-    id: '9C015EB04FFBF7611EFA4F01161D0FF3',
-    participant: undefined
-  },
-  messageTimestamp: 1683920703,
-  pushName: '𝕄𝕚𝕔𝕒 𝕂𝕖𝕣𝕟',
-  message: Message {
-    conversation: 'Ahora miro',
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
-    }
-  },
-  body: 'Ahora miro',
-  from: '5493496540711'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '5491133585118@s.whatsapp.net',
-    fromMe: false,
-    id: '3A5464220DB799503EAA',
-    participant: undefined
-  },
-  messageTimestamp: 1683921412,
-  pushName: 'Vi',
-  message: Message {
-    conversation: 'Hola ? Te envié un mensaje el miércoles ! Te envié el enterito para el cambio .',
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
-    }
-  },
-  body: 'Hola ? Te envié un mensaje el miércoles ! Te envié el enterito para el cambio .',
-  from: '5491133585118'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '5491133585118@s.whatsapp.net',
-    fromMe: false,
-    id: '3AA46920958A12BF15C2',
-    participant: undefined
-  },
-  messageTimestamp: 1683921596,
-  pushName: 'Vi',
-  message: Message {
-    conversation: 'Qué precio sería con motomensajería ?',
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
-    }
-  },
-  body: 'Qué precio sería con motomensajería ?',
-  from: '5491133585118'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '5491133585118@s.whatsapp.net',
-    fromMe: false,
-    id: '3AE82878C69DA821E4A5',
-    participant: undefined
-  },
-  messageTimestamp: 1683921625,
-  pushName: 'Vi',
-  message: Message {
-    conversation: '1646',
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
-    }
-  },
-  body: '1646',
-  from: '5491133585118'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '5491133585118@s.whatsapp.net',
-    fromMe: false,
-    id: '3AE76BCDC84AFED685BB',
-    participant: undefined
-  },
-  messageTimestamp: 1683921720,
-  pushName: 'Vi',
-  message: Message {
-    conversation: 'Ok y por correo ?',
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
-    }
-  },
-  body: 'Ok y por correo ?',
-  from: '5491133585118'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '5491133585118@s.whatsapp.net',
-    fromMe: false,
-    id: '3A9AB14A85CD28AE9B4C',
-    participant: undefined
-  },
-  messageTimestamp: 1683921725,
-  pushName: 'Vi',
-  message: Message {
-    conversation: 'Lo retiraría en sucursal',
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
-    }
-  },
-  body: 'Lo retiraría en sucursal',
-  from: '5491133585118'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '5491133585118@s.whatsapp.net',
-    fromMe: false,
-    id: '3ACE574BA17C564C61A4',
-    participant: undefined
-  },
-  messageTimestamp: 1683921859,
-  pushName: 'Vi',
-  message: Message {
-    conversation: 'Claro',
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
-    }
-  },
-  body: 'Claro',
-  from: '5491133585118'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '5491133585118@s.whatsapp.net',
-    fromMe: false,
-    id: '3A74947CAE8833D93464',
-    participant: undefined
-  },
-  messageTimestamp: 1683921878,
-  pushName: 'Vi',
-  message: Message {
-    conversation: 'El más económico en lo posible porque me salió 1900 enviarlo ya 🫠🤦🏼‍♀️',
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
-    }
-  },
-  body: 'El más económico en lo posible porque me salió 1900 enviarlo ya 🫠🤦🏼‍♀️',
-  from: '5491133585118'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '5491166628525@s.whatsapp.net',
-    fromMe: false,
-    id: '3AC5E2FDFB8E9DB44A2D',
-    participant: undefined
-  },
-  messageTimestamp: 1683921882,
-  pushName: '😊',
-  message: Message {
-    extendedTextMessage: ExtendedTextMessage {
-      text: 'Vi esto en Instagram...',
-      contextInfo: [ContextInfo]
-    },
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
-    }
-  },
-  body: 'Vi esto en Instagram...',
-  from: '5491166628525'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '5491166628525@s.whatsapp.net',
-    fromMe: false,
-    id: '3A5015552D5A7E600151',
-    participant: undefined
-  },
-  messageTimestamp: 1683921885,
-  pushName: '😊',
-  message: Message {
-    conversation: 'Precio',
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
-    }
-  },
-  body: 'Precio',
-  from: '5491166628525'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '5491133585118@s.whatsapp.net',
-    fromMe: false,
-    id: '3A18EB2363775B2F8EF5',
-    participant: undefined
-  },
-  messageTimestamp: 1683921967,
-  pushName: 'Vi',
-  message: Message {
-    conversation: 'San Fernando',
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
-    }
-  },
-  body: 'San Fernando',
-  from: '5491133585118'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '5491133585118@s.whatsapp.net',
-    fromMe: false,
-    id: '3A13EBAE5742AFC58914',
-    participant: undefined
-  },
-  messageTimestamp: 1683921976,
-  pushName: 'Vi',
-  message: Message {
-    conversation: 'Está en Constitución',
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
-    }
-  },
-  body: 'Está en Constitución',
-  from: '5491133585118'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '5491133585118@s.whatsapp.net',
-    fromMe: false,
-    id: '3AC2E1E94658A59BF5CA',
-    participant: undefined
-  },
-  messageTimestamp: 1683922000,
-  pushName: 'Vi',
-  message: Message {
-    conversation: 'Dale gracias 🤩',
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
-    }
-  },
-  body: 'Dale gracias 🤩',
-  from: '5491133585118'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '5491159227839@s.whatsapp.net',
-    fromMe: false,
-    id: 'AECEDF24DFDF61D177C7691264E58073',
-    participant: undefined
-  },
-  messageTimestamp: 1683930598,
-  pushName: '𝐌ia 𝐑𝐨𝐣𝐚𝐬',
+  messageTimestamp: 1684159956,
+  pushName: 'Solci',
   message: Message {
     extendedTextMessage: ExtendedTextMessage {
       text: '¿Me enviarían más detalles de la cuna colecho Tandil?',
-      canonicalUrl: 'https://fb.me/ueH8B7Pky',
-      description: '🤔¿Estás buscando cuna para tu bebe?🤔\n' +
-        '👉Te mostramos una de nuestras cunas favoritas: ✨CUNA COLECHO TANDIL✨\n' +
+      canonicalUrl: 'https://fb.me/4k2It1efP',
+      description: 'Descubrí la cuna perfecta para el sueño de tu bebé 👶\n' +
         '\n' +
-        '👉🏼 Te cuento un poquito sobre esta bella cuna:\n' +
-        '♡  CUNA 5 FUNCIONES (con baranda volcable y desmontable.)\n' +
-        '♡ Detalles en madera paraíso.\n' +
-        '♡ Para colchon de 120 x 60 cm.\n' +
-        '♡ Incluye cajón y ruedas con freno.\n' +
+        '👶 Dale a tu bebé noches llenas de dulzura y confort con nuestra cuna 5-en-1 Tandil. La mejor opción para los papis que buscan diseño, practicidad y seguridad para sus peques. 🍼\n' +
         '\n' +
-        '👉🏼 Medidas finales:\n' +
-        '♡ 128 x 74 cm\n' +
+        '🔥 ¡Imperdible! 🔥\n' +
+        '👉 Detalles de la cuna Tandil:\n' +
+        '♡ CUNA 5 FUNCIONES con baranda volcable y desmontable\n' +
+        '♡ Detalles en madera paraíso\n' +
+        '♡ Colchón de 120 x 60 cm\n' +
+        '♡ Incluye cajón y ruedas con freno\n' +
+        '♡ Medidas finales: 128 x 74 cm\n' +
         '\n' +
-        '👉Podés pasar a verla por nuestro local, o comprarla en la tienda online. 🐻www.faraonkids.com🐻\n' +
-        'No dudes en preguntarnos lo que necesites. Estamos para ayudarte 💜\n' +
-        '\n' +
-        '💳Tenemos hasta 3 cuotas sin interés\n' +
-        '💸Transferencia 10% OFF\n' +
-        '💰 Efectivo 20% OFF\n' +
-        '📦 ¡Envíos a todo el país!\n' +
-        '📍Estamos en 3 de febrero 2962, Caseros, Buenos Aires.',
-      title: 'Te acompañamos en este momento especial',
+        '🛍️ Conseguila en nuestro local de Caseros, Buenos Aires, o comprala online en 🐻www.faraonkids.com🐻',
+      title: '🌟 ¡Atención, papás y mamás! Llegó la cuna colecho Tandil a Faraón Kids 🌟',
       previewType: 0,
       jpegThumbnail: [Uint8Array],
       contextInfo: [ContextInfo],
@@ -748,5 +177,71 @@
     }
   },
   body: '¿Me enviarían más detalles de la cuna colecho Tandil?',
-  from: '5491159227839'
+  from: '5492613021438'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5491137832606@s.whatsapp.net',
+    fromMe: false,
+    id: 'E833CF26D5AD55362EF03A68BD00A85C',
+    participant: undefined
+  },
+  messageTimestamp: 1684160066,
+  pushName: 'Gloria',
+  message: Message {
+    conversation: 'Hola buen día!!!!. Perfecto',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'Hola buen día!!!!. Perfecto',
+  from: '5491137832606'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5491137832606@s.whatsapp.net',
+    fromMe: false,
+    id: '2EF085F0FA7FF502EB03D9F3A2A1D56F',
+    participant: undefined
+  },
+  messageTimestamp: 1684160069,
+  pushName: 'Gloria',
+  messageStubType: 2,
+  messageStubParameters: [ 'Message absent from node' ],
+  body: undefined,
+  from: '5491137832606'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5491137832606@s.whatsapp.net',
+    fromMe: false,
+    id: '2EF085F0FA7FF502EB03D9F3A2A1D56F',
+    participant: undefined
+  },
+  messageTimestamp: 1684160070,
+  pushName: 'Gloria',
+  message: Message {
+    conversation: 'Gracias',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'Gracias',
+  from: '5491137832606'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5492645409273@s.whatsapp.net',
+    fromMe: false,
+    id: 'F67748256CE5F99A0B9AAA04258281E1',
+    participant: undefined
+  },
+  messageTimestamp: 1684160087,
+  pushName: 'Yani💝',
+  messageStubType: 2,
+  messageStubParameters: [ 'Message absent from node' ],
+  body: undefined,
+  from: '5492645409273'
 }
