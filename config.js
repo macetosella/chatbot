@@ -16,7 +16,7 @@ module.exports = {
             url: "https://rebrand.ly/CunaColechoTandil",
         },
         {
-            name: "cuna funcional Viena",
+            name: "cuna funcional Berlin",
             keyword: "¿Me enviarían más detalles de la cuna colecho Berlin?",
             url: "https://www.faraonkids.com/search/?q=colecho+berlin",
         },
