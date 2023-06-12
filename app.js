@@ -1,99 +1,92 @@
-const { createBot, createProvider, createFlow, addKeyword } = require('@bot-whatsapp/bot')
+const config = require("./config");
 
-const QRPortalWeb = require('@bot-whatsapp/portal')
-const BaileysProvider = require('@bot-whatsapp/provider/baileys')
-const MongoAdapter = require('@bot-whatsapp/database/mongo')
+const {
+    createBot,
+    createProvider,
+    createFlow,
+    addKeyword,
+} = require("@bot-whatsapp/bot");
 
-/**
- * Declaramos las conexiones de Mongo
- */
+const QRPortalWeb = require("@bot-whatsapp/portal");
+const BaileysProvider = require("@bot-whatsapp/provider/baileys");
+const MongoAdapter = require("@bot-whatsapp/database/mongo");
 
-const MONGO_DB_URI = 'mongodb://0.0.0.0:27017'
-const MONGO_DB_NAME = 'db_bot'
+const flowThanks = addKeyword(["gracias"]).addAnswer("❤️");
 
-/**
- * Aqui declaramos los flujos hijos, los flujos se declaran de atras para adelante, es decir que si tienes un flujo de este tipo:
- *
- *          Menu Principal
- *           - SubMenu 1
- *             - Submenu 1.1
- *           - Submenu 2
- *             - Submenu 2.1
- *
- * Primero declaras los submenus 1.1 y 2.1, luego el 1 y 2 y al final el principal.
- */
+const getGreeting = () => {
+    const currentDate = new Date();
+    const argentinaDate = new Date(
+        currentDate.toLocaleString("en-US", { timeZone: "America/Argentina/Buenos_Aires" })
+    );
+    const currentHour = argentinaDate.getHours();
 
-const flowSecundario = addKeyword(['2', 'siguiente']).addAnswer(['📄 Aquí tenemos el flujo secundario'])
+    if (currentHour >= 6 && currentHour < 13) {
+        return "Buen día";
+    } else if (currentHour >= 13 && currentHour < 20) {
+        return "Buenas tardes";
+    } else {
+        return "Buenas noches";
+    }
+};
 
-const flowDocs = addKeyword(['doc', 'documentacion', 'documentación']).addAnswer(
-    [
-        '📄 Aquí encontras las documentación recuerda que puedes mejorarla',
-        'https://bot-whatsapp.netlify.app/',
-        '\n*2* Para siguiente paso.',
-    ],
-    null,
-    null,
-    [flowSecundario]
-)
+const greetingAction = async (ctx, { flowDynamic }) => {
+    const name = ctx.pushName;
+    const greeting = getGreeting();
+    return flowDynamic(`${greeting} ${name}, cómo estás? 😊`);
+};
 
-const flowTuto = addKeyword(['tutorial', 'tuto']).addAnswer(
-    [
-        '🙌 Aquí encontras un ejemplo rapido',
-        'https://bot-whatsapp.netlify.app/docs/example/',
-        '\n*2* Para siguiente paso.',
-    ],
-    null,
-    null,
-    [flowSecundario]
-)
 
-const flowGracias = addKeyword(['gracias', 'grac']).addAnswer(
-    [
-        '🚀 Puedes aportar tu granito de arena a este proyecto',
-        '[*opencollective*] https://opencollective.com/bot-whatsapp',
-        '[*buymeacoffee*] https://www.buymeacoffee.com/leifermendez',
-        '[*patreon*] https://www.patreon.com/leifermendez',
-        '\n*2* Para siguiente paso.',
-    ],
-    null,
-    null,
-    [flowSecundario]
-)
-
-const flowDiscord = addKeyword(['discord']).addAnswer(
-    ['🤪 Únete al discord', 'https://link.codigoencasa.com/DISCORD', '\n*2* Para siguiente paso.'],
-    null,
-    null,
-    [flowSecundario]
-)
-
-const flowPrincipal = addKeyword(['hola', 'ole', 'alo'])
-    .addAnswer('🙌 Hola bienvenido a este *Chatbot*')
-    .addAnswer(
-        [
-            'te comparto los siguientes links de interes sobre el proyecto',
-            '👉 *doc* para ver la documentación',
-            '👉 *gracias*  para ver la lista de videos',
-            '👉 *discord* unirte al discord',
-        ],
-        null,
-        null,
-        [flowDocs, flowGracias, flowTuto, flowDiscord]
-    )
+const createProductFlow = ({ keyword, name, url }) => {
+    return addKeyword(keyword)
+        .addAction(greetingAction)
+        .addAnswer(
+            [
+                `Te envío el link a nuestra tienda con más info y precio de la ${name}.`,
+                `👉🏼 ${url}`,
+                "👉🏼 Podés llevar el modelo que más te guste \"en combo.\" Este incluye:",
+                "• Cuna • Colchón • Juego de sábanas • Almohadón de regalo 💖",
+            ]
+        )
+        .addAnswer(
+            [
+                "💳 Podés abonar en hasta en 3 cuotas sin interés con tarjetas de crédito bancarias.",
+                "💰 Efectivo: 20% OFF",
+                "💸 Transf/depósito:10% OFF",
+            ]
+        )
+        .addAnswer(
+            [
+                "⚡📦 Hacemos envíos a todo el país! Podés cotizar el mismo directamente desde nuestra página ingresando tu código postal."
+            ]
+        )
+        .addAnswer(
+            [
+                "📍Nos encontrás en 3 de Febrero 2962. Caseros, Buenos Aires."
+            ]
+        )
+        .addAnswer(
+            [
+                "Ante cualquier duda, estamos a tu disposición. 😊👑"
+            ],
+            null,
+            null,
+            [flowThanks]
+        )
+};
 
 const main = async () => {
     const adapterDB = new MongoAdapter({
-        dbUri: MONGO_DB_URI,
-        dbName: MONGO_DB_NAME,
-    })
-    const adapterFlow = createFlow([flowPrincipal])
-    const adapterProvider = createProvider(BaileysProvider)
+        dbUri: config.database.uri,
+        dbName: config.database.name,
+    });
+    const adapterFlow = createFlow(config.products.map(createProductFlow));
+    const adapterProvider = createProvider(BaileysProvider);
     createBot({
         flow: adapterFlow,
         provider: adapterProvider,
         database: adapterDB,
-    })
-    QRPortalWeb()
-}
+    });
+    QRPortalWeb();
+};
 
-main()
+main();
